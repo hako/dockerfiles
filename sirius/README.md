@@ -1,14 +1,12 @@
 # sirius
 
-A Little Printer Server Dockerfile.
+Little Printer Server Dockerfile.
 
-Based on [@genmon's](https://github.com/genmon) sirius little printer server.
+Based on [@genmon](https://github.com/genmon)'s [sirius](https://github.com/genmon/sirius) Little Printer Server and my DIY installation guide: [Installing Sirius on Mac/Linux](https://gist.github.com/hako/f8944cfa7b8fb8115f6d).
 
-### [genmon/sirius](https://github.com/genmon/sirius)
+Docker Repository: [hakobyte/sirius](https://hub.docker.com/r/hakobyte/sirius/)
 
-and my DIY installation guide:
-
-### [Installing Sirius on Mac/Linux](https://gist.github.com/hako/f8944cfa7b8fb8115f6d)
+### usage
 
 To have sirius up and running on your machine, run:
 
@@ -18,6 +16,8 @@ This command will pull the `hakobyte/sirius` image from Docker Hub and will run 
 
 [http://localhost:5000](http://localhost:5000)
 
+### info
+
 This dockerfile uses the alpine image because alpine images are tiny. 
 
-This image is (296.1 MB approx)
+This image is 128 MB compressed and ~296.1 MB uncompressed.
